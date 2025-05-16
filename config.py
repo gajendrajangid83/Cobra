@@ -3,15 +3,15 @@
 import os
 from os import getenv
 # ---------------R---------------------------------
-API_ID = int(os.environ.get("API_ID", ""))
+API_ID = int(os.environ.get("API_ID", "29907731"))
 # ------------------------------------------------
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "8f59d632cb374705cfdee46ac17cc3cd")
 # ----------------D--------------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7591431005:AAHSTGbhrKqbddHPpkauBl7eJwh68nn544k")
 # -----------------A-------------------------------
-BOT_USERNAME = os.environ.get("")
+BOT_USERNAME = os.environ.get("@mjteamexbot")
 # ------------------X------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6697397532"))
 # ------------------X------------------------------
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
